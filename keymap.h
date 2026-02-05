@@ -21,7 +21,7 @@ static const KeyMapping key_map[] = {
   {"p", "P", KEY_P}, {"[", "{", KEY_LEFTBRACE}, {"]", "}", KEY_RIGHTBRACE}, {"\\", "|", KEY_BACKSLASH},
 
   /* Row 2 */
-  {"Caps Lock", "Caps Lock", KEY_CAPSLOCK}, {"a", "A", KEY_A}, {"s", "S", KEY_S}, {"d", "D", KEY_D},
+  {"Escape", "Escape", KEY_ESC}, {"a", "A", KEY_A}, {"s", "S", KEY_S}, {"d", "D", KEY_D},
   {"f", "F", KEY_F}, {"g", "G", KEY_G}, {"h", "H", KEY_H}, {"j", "J", KEY_J}, {"k", "K", KEY_K},
   {"l", "L", KEY_L}, {";", ":", KEY_SEMICOLON}, {"'", "\"", KEY_APOSTROPHE}, {"Enter", "Enter", KEY_ENTER},
 

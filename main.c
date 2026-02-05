@@ -145,9 +145,8 @@ static void activate(GtkApplication *app, gpointer user_data) {
     GTK_GRID(gtk_builder_get_object(builder, "kbd_row_4"))
   };
 
-  // Map keys from keymap.h to the UI grids 
   int current_key = 0;
-  int row_counts[] = {14, 14, 13, 12, 6}; // Matches keymap.h layout
+  int row_counts[] = {14, 14, 13, 12, 6};
 
   for (int r = 0; r < 5; r++) {
     int current_col = 0;
@@ -157,7 +156,6 @@ static void activate(GtkApplication *app, gpointer user_data) {
       const char *label = key_map[current_key].label;
       int width = 1;
 
-      // Dynamic width logic 
       if (g_strcmp0(label, "Space") == 0) width = 7;
       else if (g_strcmp0(label, "Backspace") == 0) width = 2;
       else if (g_strcmp0(label, "Enter") == 0) width = 3;
