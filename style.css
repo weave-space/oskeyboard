@@ -1,0 +1,26 @@
+* {
+  background-color: transparent;
+}
+
+window {
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: black;
+  border: 3px solid white;
+  border-radius: 15px;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+
+  min-width: 94px;
+  min-height: 94px;
+}
+
+button > * {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  font-size: 20px;
+}
